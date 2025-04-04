@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 85px;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.list {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 50px;
+}
+
+li {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.btn {
+  width: 75px;
+  height: 31px;
+  top: 21px;
+  left: 1286px;
+  gap: 10px;
+  padding-top: 6px;
+  padding-right: 16px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  color: white;
+  background-color: #d01c28;
+  border: none;
+}

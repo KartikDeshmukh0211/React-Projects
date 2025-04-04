@@ -1,0 +1,41 @@
+.ContactForm {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 472px;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.form_element{
+    position: relative;
+    margin: 26px 8px;
+}
+
+.form_element label{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+    padding-inline: 6px;
+}
+.form_element input{
+    width: 100%;
+    height: 35px;
+    padding: 6px 14px;
+    /* max-width: 440px; */
+}
+.form_element textarea{
+    padding: 16px 14px;
+    width: 100%;
+    height: 120px;
+}
